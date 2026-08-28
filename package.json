@@ -1,0 +1,36 @@
+{
+  "name": "20260828_practice_v2",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u00002\u00000\u00002\u00006\u00000\u00008\u00002\u00008\u0000-\u0000p\u0000r\u0000a\u0000c\u0000t\u0000i\u0000c\u0000e\u0000\r\u0000 \u0000\r\u0000 \u0000#\u0000#\u0000 \u00002\u00000\u00002\u00006\u0000/\u00000\u00008\u0000/\u00002\u00001\u0000\r\u0000 \u0000\r\u0000 \u0000f[!h�t�X�0�0�0�0�0�0�0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc && cpx \"src/views/**/*\" dist/views",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goumisaki/20260828_practice_v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/goumisaki/20260828_practice_v2/issues"
+  },
+  "homepage": "https://github.com/goumisaki/20260828_practice_v2#readme",
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.4.0",
+    "cpx": "^1.5.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  }
+}
